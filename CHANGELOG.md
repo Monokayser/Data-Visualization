@@ -2,6 +2,13 @@
 
 ## v2.0.0 - Update 2
 
+### Public Preview Hotfix
+
+- Updated the public Netlify preview with a visible AI Data Assistant section.
+- Reworked the District Overview bubble chart from a confusing share-axis plot to a cleaner district-rank vs institute-count chart.
+- Removed the default Plotly `trace 0` legend from the district overview.
+- Improved public-preview chart spacing and mobile AI panel layout.
+
 ### Added
 
 - AI Data Assistant tab powered by OpenRouter-compatible chat completions.
@@ -27,4 +34,3 @@
 ### Known Limitation
 
 - API-based AI responses require a valid `OPENROUTER_API_KEY` configured locally or in deployment secrets.
-

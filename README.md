@@ -15,6 +15,8 @@ Public preview link:
 
 [https://bd-edu-institutes-explorer-6565.netlify.app](https://bd-edu-institutes-explorer-6565.netlify.app)
 
+The public preview includes the cleaned District Overview chart and a visible AI Assistant panel. The static preview can provide local summarized answers without storing secrets; API-backed AI answers require a user-provided OpenRouter key for the current browser session or the full Streamlit deployment with secrets.
+
 Version 2.0 Streamlit deployment note:
 
 The full AI-enhanced Streamlit app requires a Python host such as Streamlit Community Cloud or Render. To enable the AI assistant in production, add `OPENROUTER_API_KEY` as a deployment secret. See [Version 2 AI Setup](deployment/version_2_ai_setup.md).
