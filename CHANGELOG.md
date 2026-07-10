@@ -8,6 +8,7 @@
 - Reworked the District Overview bubble chart from a confusing share-axis plot to a cleaner district-rank vs institute-count chart.
 - Removed the default Plotly `trace 0` legend from the district overview.
 - Improved public-preview chart spacing and mobile AI panel layout.
+- Refined the live UI to a more minimal, readable dashboard style with calmer panels, cleaner typography, and better chart font fallbacks.
 
 ### Added
 

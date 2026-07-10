@@ -1,27 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #08110d;
-  --panel: rgba(25, 38, 32, .82);
-  --panel-soft: rgba(255,255,255,.055);
-  --stroke: rgba(214, 255, 91, .16);
-  --stroke-strong: rgba(214, 255, 91, .30);
-  --text: #f2f8f0;
-  --muted: #aebbae;
-  --lime: #d7ff62;
-  --blue: #79c7f2;
+  --bg: #0b1410;
+  --panel: rgba(20, 32, 26, .94);
+  --panel-soft: rgba(255,255,255,.04);
+  --stroke: rgba(220, 235, 225, .12);
+  --stroke-strong: rgba(205, 246, 110, .24);
+  --text: #eef7ef;
+  --muted: #b9c7bd;
+  --lime: #cdf66e;
+  --blue: #98d3ff;
   --pink: #fb6fae;
 }
 
 html, body, [class*="css"] {
-  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 .stApp {
-  background:
-    radial-gradient(circle at 58% 9%, rgba(121,199,242,.20), transparent 34%),
-    radial-gradient(circle at 14% 78%, rgba(214,255,98,.10), transparent 32%),
-    linear-gradient(145deg, #07120d 0%, #102018 52%, #09110d 100%);
+  background: linear-gradient(135deg, #08110d 0%, #0d1813 48%, #101d17 100%);
   color: var(--text);
 }
 
@@ -46,25 +43,17 @@ section[data-testid="stSidebar"] * {
 }
 
 .hero {
-  min-height: 250px;
-  padding: 28px 30px;
-  border-radius: 22px;
+  min-height: 220px;
+  padding: 26px 30px;
+  border-radius: 18px;
   border: 1px solid rgba(255,255,255,.08);
-  background:
-    linear-gradient(112deg, rgba(11,82,73,.96) 0%, rgba(35,81,145,.88) 53%, rgba(55,45,192,.95) 100%);
-  box-shadow: 0 30px 80px rgba(0,0,0,.36);
+  background: linear-gradient(135deg, rgba(14, 28, 22, .98), rgba(23, 39, 32, .94));
+  box-shadow: 0 18px 44px rgba(0,0,0,.22);
   overflow: hidden;
   position: relative;
 }
 
-.hero:after {
-  content: "";
-  position: absolute;
-  inset: auto -15% -70% auto;
-  width: 520px;
-  height: 520px;
-  background: radial-gradient(circle, rgba(215,255,98,.22), transparent 66%);
-}
+.hero:after { display: none; }
 
 .topbar {
   display: flex;
@@ -88,18 +77,18 @@ section[data-testid="stSidebar"] * {
   height: 46px;
   display: grid;
   place-items: center;
-  border-radius: 14px;
+  border-radius: 11px;
   color: #0b1510;
-  background: linear-gradient(135deg, var(--lime), var(--blue));
-  box-shadow: inset 0 -8px 16px rgba(0,0,0,.18);
+  background: var(--lime);
+  box-shadow: none;
 }
 
 .hero h1 {
   margin: 0 0 12px 0;
   max-width: 760px;
   color: white;
-  font-size: clamp(2rem, 4vw, 4.2rem);
-  line-height: .98;
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
@@ -128,10 +117,10 @@ section[data-testid="stSidebar"] * {
 }
 
 .kpi-card, .panel-card, .info-card {
-  border-radius: 18px;
+  border-radius: 14px;
   border: 1px solid var(--stroke);
-  background: linear-gradient(145deg, rgba(25,38,32,.86), rgba(18,30,25,.78));
-  box-shadow: 0 18px 50px rgba(0,0,0,.25);
+  background: var(--panel);
+  box-shadow: 0 12px 30px rgba(0,0,0,.16);
 }
 
 .kpi-card {
@@ -188,7 +177,7 @@ section[data-testid="stSidebar"] * {
   gap: 8px;
   background: rgba(255,255,255,.045);
   padding: 6px;
-  border-radius: 16px;
+  border-radius: 12px;
   border: 1px solid var(--stroke);
 }
 
@@ -208,7 +197,7 @@ textarea,
 .stTextInput input {
   background: rgba(255,255,255,.075) !important;
   color: var(--text) !important;
-  border-radius: 13px !important;
+  border-radius: 11px !important;
   border-color: rgba(215,255,98,.28) !important;
 }
 
@@ -240,8 +229,8 @@ div[data-baseweb="popover"] * {
 
 .stButton > button,
 .stDownloadButton > button {
-  border-radius: 13px;
-  background: linear-gradient(135deg, var(--lime), var(--blue));
+  border-radius: 11px;
+  background: var(--lime);
   color: #102017;
   border: 0;
   font-weight: 800;

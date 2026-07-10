@@ -15,7 +15,7 @@ Public preview link:
 
 [https://bd-edu-institutes-explorer-6565.netlify.app](https://bd-edu-institutes-explorer-6565.netlify.app)
 
-The public preview includes the cleaned District Overview chart and a visible AI Assistant panel. The static preview can provide local summarized answers without storing secrets; API-backed AI answers require a user-provided OpenRouter key for the current browser session or the full Streamlit deployment with secrets.
+The public preview includes the cleaned District Overview chart, a visible AI Assistant panel, and a more minimal readable UI. The static preview can provide local summarized answers without storing secrets; API-backed AI answers require a user-provided OpenRouter key for the current browser session or the full Streamlit deployment with secrets.
 
 Version 2.0 Streamlit deployment note:
 
