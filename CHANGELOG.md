@@ -18,6 +18,8 @@
 - Example AI questions, chat history, loading states, clear-chat option, and graceful missing-key messages.
 - Test suite for data loading, missing values, filtering, visualization generation, AI context construction, and missing API key handling.
 - Version 2.0 label in the dashboard hero section.
+- Full HD live application demo video at `docs/demo/web_app_demo_1080p.mp4`.
+- Public browser verification evidence at `docs/testing/live_app_check_latest.json`.
 
 ### Improved
 
@@ -25,6 +27,7 @@
 - Requirements updated with API client dependency.
 - `.env.example` expanded with safe AI configuration placeholders.
 - `.gitignore` updated to ignore logs and local environment files.
+- README updated with demo video, live application link, and test evidence links.
 
 ### Security
 

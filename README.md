@@ -21,6 +21,12 @@ Version 2.0 Streamlit deployment note:
 
 The full AI-enhanced Streamlit app requires a Python host such as Streamlit Community Cloud or Render. To enable the AI assistant in production, add `OPENROUTER_API_KEY` as a deployment secret. See [Version 2 AI Setup](deployment/version_2_ai_setup.md).
 
+## 🎬 Demo Video
+
+The full HD demo video records the live public application at 1920 x 1080 resolution. It demonstrates the homepage, KPI cards, sidebar filters, search, interactive charts, AI Assistant panel, data table, institute details, reset behavior, and responsive mobile layout.
+
+[Watch the demo video](docs/demo/web_app_demo_1080p.mp4)
+
 ## 🚀 Version 2.0 — AI-Enhanced Dashboard
 
 The Version 2.0 update adds an AI assistant that can:
@@ -245,6 +251,7 @@ Additional diagrams:
 | Project Report PDF | [report/Project_Report.pdf](report/Project_Report.pdf) |
 | Project Report DOCX | [report/Project_Report.docx](report/Project_Report.docx) |
 | User Guide | [docs/user_guide.md](docs/user_guide.md) |
+| Live App Test Evidence | [docs/testing/live_app_check_latest.json](docs/testing/live_app_check_latest.json) |
 | Version 2 AI Setup | [deployment/version_2_ai_setup.md](deployment/version_2_ai_setup.md) |
 | Streamlit Cloud Deployment | [deployment/streamlit_cloud_deployment.md](deployment/streamlit_cloud_deployment.md) |
 | Render Deployment | [deployment/render_deployment.md](deployment/render_deployment.md) |
