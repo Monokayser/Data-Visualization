@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+<rect width="1280" height="760" fill="#08110d"/><rect x="42" y="38" width="1196" height="210" rx="28" fill="#153b44"/>
+<rect x="70" y="74" width="70" height="70" rx="18" fill="#d7ff62"/><text x="105" y="118" text-anchor="middle" fill="#102017" font-size="24" font-weight="800">ED</text>
+<text x="165" y="115" fill="#f2f8f0" font-size="40" font-weight="800">District Aggregation Section</text><text x="165" y="160" fill="#aebbae" font-size="22">Bangladesh Educational Institutes Explorer</text>
+<rect x="42" y="285" width="270" height="390" rx="24" fill="#101b16" stroke="#d7ff62" stroke-opacity=".18"/>
+<rect x="342" y="285" width="414" height="180" rx="24" fill="#17251f"/><rect x="782" y="285" width="456" height="180" rx="24" fill="#17251f"/>
+<rect x="342" y="500" width="896" height="175" rx="24" fill="#17251f"/>
+<text x="72" y="335" fill="#d7ff62" font-size="20" font-weight="700">Filters</text><text x="372" y="340" fill="#f2f8f0" font-size="25" font-weight="800">KPI Cards and Plotly Visuals</text>
+<text x="372" y="555" fill="#f2f8f0" font-size="25" font-weight="800">Searchable Records and Export</text>
+</svg>

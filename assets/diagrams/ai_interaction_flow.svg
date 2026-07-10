@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#79c7f2"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="620" fill="#08110d"/>
+  <circle cx="1040" cy="120" r="230" fill="#79c7f2" opacity=".11"/>
+  <circle cx="160" cy="520" r="210" fill="#d7ff62" opacity=".10"/>
+  <text x="58" y="74" fill="#f2f8f0" font-size="34" font-family="Inter, Arial" font-weight="800">AI Assistant Interaction Flow</text>
+  <g font-family="Inter, Arial" font-size="20" font-weight="700" text-anchor="middle">
+    <rect x="70" y="160" width="210" height="90" rx="18" fill="#17251f" stroke="#d7ff62" stroke-opacity=".35"/>
+    <text x="175" y="198" fill="#f2f8f0">User Question</text>
+    <text x="175" y="226" fill="#aebbae" font-size="15">Chat input</text>
+    <rect x="350" y="160" width="230" height="90" rx="18" fill="#1b3028" stroke="#d7ff62" stroke-opacity=".35"/>
+    <text x="465" y="198" fill="#f2f8f0">Dashboard Context</text>
+    <text x="465" y="226" fill="#aebbae" font-size="15">Filters + summaries</text>
+    <rect x="650" y="160" width="220" height="90" rx="18" fill="#1b3028" stroke="#d7ff62" stroke-opacity=".35"/>
+    <text x="760" y="198" fill="#f2f8f0">Prompt Builder</text>
+    <text x="760" y="226" fill="#aebbae" font-size="15">Safety rules</text>
+    <rect x="940" y="160" width="210" height="90" rx="18" fill="#24365a" stroke="#d7ff62" stroke-opacity=".35"/>
+    <text x="1045" y="198" fill="#f2f8f0">OpenRouter API</text>
+    <text x="1045" y="226" fill="#aebbae" font-size="15">Env secret</text>
+    <rect x="350" y="380" width="230" height="90" rx="18" fill="#24365a" stroke="#d7ff62" stroke-opacity=".35"/>
+    <text x="465" y="418" fill="#f2f8f0">Grounded Answer</text>
+    <text x="465" y="446" fill="#aebbae" font-size="15">No fabricated values</text>
+    <rect x="650" y="380" width="220" height="90" rx="18" fill="#17251f" stroke="#d7ff62" stroke-opacity=".35"/>
+    <text x="760" y="418" fill="#f2f8f0">Error Handling</text>
+    <text x="760" y="446" fill="#aebbae" font-size="15">Missing key/rate limit</text>
+  </g>
+  <g stroke="#79c7f2" stroke-width="4" marker-end="url(#arrow)">
+    <line x1="280" y1="205" x2="350" y2="205"/>
+    <line x1="580" y1="205" x2="650" y2="205"/>
+    <line x1="870" y1="205" x2="940" y2="205"/>
+    <line x1="1045" y1="250" x2="520" y2="380"/>
+    <line x1="760" y1="250" x2="760" y2="380"/>
+  </g>
+</svg>

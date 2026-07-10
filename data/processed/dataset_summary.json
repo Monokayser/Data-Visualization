@@ -1,0 +1,180 @@
+{
+  "generated_on": "2026-07-09",
+  "sheets": [
+    "All",
+    "Schools",
+    "Colleges",
+    "Schools_Colleges",
+    "Madrasas",
+    "Public Universities",
+    "Private Universities",
+    "Technical",
+    "Professionals",
+    "Teachers Training"
+  ],
+  "all_rows": 36160,
+  "districts": 64,
+  "upazilas": 544,
+  "institute_types": 9,
+  "columns": [
+    "DISTRICT",
+    "UPAZILA/THANA",
+    "INSTITUTE TYPE",
+    "INSTITUTE LEVEL",
+    "EIIN",
+    "INSTITUTE NAME",
+    "ADDRESS",
+    "POST",
+    "MOBILE",
+    "MANAGEMENT",
+    "MPO",
+    "STUDY TYPE",
+    "AREA",
+    "GEOGRAPHY",
+    "SOURCE SHEET"
+  ],
+  "quality": {
+    "All": {
+      "rows": 36160,
+      "duplicate_eiin": 0,
+      "missing_cells": 799,
+      "missing_columns": []
+    },
+    "Schools": {
+      "rows": 19575,
+      "duplicate_eiin": 0,
+      "missing_cells": 194,
+      "missing_columns": []
+    },
+    "Colleges": {
+      "rows": 3321,
+      "duplicate_eiin": 0,
+      "missing_cells": 37,
+      "missing_columns": []
+    },
+    "Schools_Colleges": {
+      "rows": 1424,
+      "duplicate_eiin": 0,
+      "missing_cells": 18,
+      "missing_columns": []
+    },
+    "Madrasas": {
+      "rows": 9287,
+      "duplicate_eiin": 0,
+      "missing_cells": 82,
+      "missing_columns": []
+    },
+    "Public Universities": {
+      "rows": 46,
+      "duplicate_eiin": 0,
+      "missing_cells": 3,
+      "missing_columns": []
+    },
+    "Private Universities": {
+      "rows": 100,
+      "duplicate_eiin": 0,
+      "missing_cells": 10,
+      "missing_columns": []
+    },
+    "Technical": {
+      "rows": 2084,
+      "duplicate_eiin": 0,
+      "missing_cells": 297,
+      "missing_columns": []
+    },
+    "Professionals": {
+      "rows": 175,
+      "duplicate_eiin": 0,
+      "missing_cells": 45,
+      "missing_columns": []
+    },
+    "Teachers Training": {
+      "rows": 148,
+      "duplicate_eiin": 0,
+      "missing_cells": 113,
+      "missing_columns": []
+    }
+  },
+  "top_districts": [
+    {
+      "DISTRICT": "DHAKA",
+      "TOTAL": 1380,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 173,
+      "PRIVATE": 1207,
+      "PUBLIC PRIVATE RATIO": "173:1207"
+    },
+    {
+      "DISTRICT": "CHATTOGRAM",
+      "TOTAL": 1362,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 82,
+      "PRIVATE": 1280,
+      "PUBLIC PRIVATE RATIO": "82:1280"
+    },
+    {
+      "DISTRICT": "MYMENSINGH",
+      "TOTAL": 1236,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 54,
+      "PRIVATE": 1182,
+      "PUBLIC PRIVATE RATIO": "54:1182"
+    },
+    {
+      "DISTRICT": "CUMILLA",
+      "TOTAL": 1211,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 73,
+      "PRIVATE": 1138,
+      "PUBLIC PRIVATE RATIO": "73:1138"
+    },
+    {
+      "DISTRICT": "DINAJPUR",
+      "TOTAL": 1173,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 53,
+      "PRIVATE": 1120,
+      "PUBLIC PRIVATE RATIO": "53:1120"
+    },
+    {
+      "DISTRICT": "RAJSHAHI",
+      "TOTAL": 1090,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 56,
+      "PRIVATE": 1034,
+      "PUBLIC PRIVATE RATIO": "56:1034"
+    },
+    {
+      "DISTRICT": "JASHORE",
+      "TOTAL": 1006,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 38,
+      "PRIVATE": 968,
+      "PUBLIC PRIVATE RATIO": "38:968"
+    },
+    {
+      "DISTRICT": "BOGURA",
+      "TOTAL": 990,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 50,
+      "PRIVATE": 940,
+      "PUBLIC PRIVATE RATIO": "50:940"
+    },
+    {
+      "DISTRICT": "TANGAIL",
+      "TOTAL": 921,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 62,
+      "PRIVATE": 859,
+      "PUBLIC PRIVATE RATIO": "62:859"
+    },
+    {
+      "DISTRICT": "RANGPUR",
+      "TOTAL": 911,
+      "TOP TYPE": "SCHOOL",
+      "PUBLIC": 34,
+      "PRIVATE": 877,
+      "PUBLIC PRIVATE RATIO": "34:877"
+    }
+  ]
+}
